@@ -1,0 +1,15 @@
+[package]
+name = "open62541-ffi"
+version = "1.4.0-rc2"
+authors = ["Julian Weiß <weiss_julian@outlook.de>"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cmake = "0.1.50"
+bindgen = "0.69.4"
+
+[[example]]
+name = "simple"
